@@ -3,6 +3,7 @@ let scale = 1;
 const speed = 0.1; // Adjust this to change zoom sensitivity
 
 window.addEventListener('wheel', (event) => {
+  console.log("Wheel moved")
   // Prevent the whole page from scrolling when zooming the image
   event.preventDefault();
 
